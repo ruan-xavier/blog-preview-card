@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap');
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+}
+
+body {
+  font-family: 'Figtree', sans-serif;
+  font-size: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--yellow);
+  padding: 24px;
+  gap: 24px;
+  flex-direction: column;
+}
+
+
+.card {
+  max-width: 384px;
+  width: 100%;
+  background-color: var(--white);
+  padding: 24px;
+  border: 1PX solid black;
+  border-radius: 20px;
+  box-shadow: 4px 4px 0px black;
+}
+
+.illustration {
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 24px;
+
+}
+
+main span {
+  background-color: var(--yellow);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 800;
+}
+
+main p {
+  font-size: 18px;
+  color: var(--gray-500);
+}
+
+main p:first-of-type {
+  color: var(--gray-950);
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 24px 0 0 0;
+
+}
+
+.author img {
+  max-width: 32px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
